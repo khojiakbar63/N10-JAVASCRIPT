@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #heading{
+            text-align: center;
+            margin-top: 100px;
+            font-size: 40px;
+            font-weight: 600;
+            color: rgb(27, 4, 4);
+            text-decoration: underline;
+            transition: .2s;
+            letter-spacing: 10px;
+        }
+        #heading:hover{
+            letter-spacing: 20px;
+        }
+        .btns{
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            width: 30%;
+            margin: 100px auto;
+            gap: 10px
+        }
+        .btn{
+            padding: 10px 20px;
+            border: 2px solid grey;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.2s;
+
+        }
+       
+         #add-btn{
+            background-color: rgb(42, 84, 53);
+            color: white;
+        }
+        #add-btn:hover{
+            background-color: rgb(120, 154, 129);
+            transform:translateX(10px);
+        }
+        #show-btn{
+            background-color: rgb(72, 61, 139);
+            color: white;
+        }
+        #show-btn:hover{
+            background-color: rgb(127, 118, 180);
+            transform:translateX(10px);
+        }
+        #sort-btn{
+            background-color: rgba(14, 115, 182, 0.59);
+            color: white;
+        }
+        #sort-btn:hover{
+            background-color: rgba(71, 140, 187, 0.439);
+            transform:translateX(10px);
+        }
+        #delete-btn{
+            background-color: rgb(208, 76, 76);
+            color: white;
+        }
+        #delete-btn:hover{
+            background-color: rgb(225, 130, 130);
+            transform:translateX(10px);
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="heading">TODO LIST</h1>
+    <div class="btns">
+
+        <button onclick="addTodo" class="btn" id="add-btn">ADD TODO</button>
+        <button onclick="showTodos" class="btn" id="show-btn">SHOW TODOS</button>
+        <button onclick="sortByTime" class="btn" id="sort-btn">SORT</button>
+        <button onclick="deleteTodo" class="btn" id="delete-btn">DELETE</button>
+        
+    </div>
+    <!-- <button id="save-btn">Save User</button>
+    <button id="add-btn">Save User</button>
+
+    <button id="save-btn">Save User</button> -->
+    <!-- <button id="login-btn">Login</button>
+    <button class="register-btn">Register</button>
+    <h2>Hello World</h2> -->
+<!-- 
+        <p id="text">Salom Dunyo</p>
+
+        <span class="small-text">Salom</span>
+        <span class="small-text">Salom</span> -->
+
+    <script src="inclass.js"></script>
+    <script src="homework.js"></script>
+</body>
+</html>
