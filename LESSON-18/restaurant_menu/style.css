@@ -45,10 +45,9 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* flex-direction: column; */
     margin: 50px auto 10px;
     max-width: 400px;
-    background: rgba(238, 235, 235, 0.064);
+    background: rgba(5, 88, 221, 0.227);
 }
 .foods:hover {
     background: rgba(25, 22, 22, 0.125);
@@ -65,7 +64,6 @@ h1{
 }
 
 #show-zone {
-    
     padding: 20px;
     margin: 20px auto;
     border-radius: 10px;
@@ -74,4 +72,44 @@ h1{
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+}
+.searched-food{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(16, 171, 119, 0.563);
+}
+.searched-food  h4{
+    font-size: 25px;
+    padding: 10px;
+}
+.sorted_food {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(238, 255, 0, 0.285);
+
+}
+.sorted_food h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.filtered-food {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: rgb(238, 226, 226);
+    padding: 5px;
+}
+.filtered-food h4 {
+    font-size: 25px;
+    /* margin-bottom: 20px; */
+}
+.filtered-food p {
+    font-size: 20px;
+    /* margin: 10px; */
 }
